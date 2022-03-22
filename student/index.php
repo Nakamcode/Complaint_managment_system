@@ -561,9 +561,10 @@ class="form-control" required="">
            <select id="type" name="type"
 class="form-control" required="">
           
-          <option value="Hostel">Hostel</option>
-            <option value="Mess">Mess</option>
-            <option value="Acedemic">Acedemics</option>
+          <option value="Hostel Related issues">Hostel Related issues</option>
+            <option value="Bullying">Bullying</option>
+            <option value="Harrassment">Harassment</option>
+            <option value="Academics">Academics</option>
             <option value="Others">Others</option>
         </select>
                                   
