@@ -38,7 +38,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`adName`, `pass`, `email`, `contact`) VALUES
-('admin', 'admin', 'admin@gmail.com', '2222222222');
+('admin', 'admin', 'admin@upsamail.edu.gh', '2222222222');
 
 -- --------------------------------------------------------
 
@@ -62,10 +62,10 @@ CREATE TABLE `caretaker` (
 
 INSERT INTO `caretaker` (`tid`, `name`, `ctype`, `contact`, `address`, `email`, `password`) VALUES
 (5, '', 'HOSTEL', '', '', '', ''),
-(1, 'caretaker1', 'hostel', '9567760258', 'nitc', 'ajay11.933@rediffmail.com', '123456789'),
-(2, 'caretaker2', 'academics', '9567760258', 'nitc', 'caretaker2@nitc.ac.in', '23456789'),
-(3, 'caretaker3', 'bullying and Harrassment', '9874563214', 'nitc', 'caretaker3@nitc.ac.in', '3456789'),
-(4, 'caretaker4', 'other', '9567752525', 'nitc', 'caretaker4@nitc.ac.in', '456789');
+(1, 'caretaker1', 'hostel', '9567760258', 'upsa', 'caretaker1@upsamail.edu.gh', 'caretaker'),
+(2, 'caretaker2', 'academics', '9567760258', 'upsa', 'caretaker2@upsamail.edu.gh', 'caretaker'),
+(3, 'caretaker3', 'bullying and Harrassment', '9874563214', 'upsa', 'caretaker3@upsamail.edu.gh', 'caretaker'),
+(4, 'caretaker4', 'other', '9567752525', 'upsa', 'caretaker4@upsamail.edu.gh', 'caretaker');
 
 -- --------------------------------------------------------
 
@@ -89,8 +89,8 @@ CREATE TABLE `complaint` (
 --
 
 INSERT INTO `complaint` (`cid`, `description`, `sid`, `type`, `SEmail`, `status`, `Cby`, `date`) VALUES
-(123505, 'no all services provided to students regarding hostel', 'm150050ca', 'Hostel', 'm150050ca_rahul@nitc.ac.in', 'pending', 'rahul raj', '2017-05-09 08:45:16'),
-(123506, 'mess closed 28 april please extends the date...', 'm140361ca', 'Hostel', 'ajay_m140361ca@nitc.ac.in', 'approved', 'ajay', '2017-05-09 17:20:29');
+(123505, 'The hostel booking website is too slow, can you please work on the speed', '10288299', 'Hostel', '10288299', 'pending', 'ray cudjoe', '2022-02-09 08:45:16'),
+(123506, 'The project deadline is 28 april please extends the date...', '10288289', 'Other', '10288289@upsamail.edu.gh', 'approved', 'kelvin moah', '2022-03-09 17:20:29');
 
 -- --------------------------------------------------------
 
