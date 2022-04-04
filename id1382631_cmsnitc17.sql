@@ -139,7 +139,7 @@ INSERT INTO `student` (`rollno`, `name`, `contact`, `email`, `hostel`, `course`,
 ('10278228', 'User two', '0556516391', '10278228@upsamail.edu.gh', 'private hostel', 'diploma in IT', 'password', 'y'),
 ('10278238', 'User three', '0556516391', '10278238@upsamail.edu.gh', 'private hostel', 'diploma in IT', 'password', 'y'),
 ('10278288', 'Nana Asamoah Kwaw', '0556516391', '10278288@upsamail.edu.gh', 'private hostel', 'diploma in IT', 'password', 'y'),
-('10107998', 'Gilbert Afranie', '0551838624', '10107998@upsamail.edu.gh', 'mba', 'mca', 'password', 'y');
+('10107998', 'Gilbert Afranie', '0551838624', '10107998@upsamail.edu.gh', 'mba', 'new hostel', 'password', 'y');
 
 --
 -- Indexes for dumped tables
