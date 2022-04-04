@@ -90,7 +90,8 @@ CREATE TABLE `complaint` (
 
 INSERT INTO `complaint` (`cid`, `description`, `sid`, `type`, `SEmail`, `status`, `Cby`, `date`) VALUES
 (123505, 'The hostel booking website is too slow, can you please work on the speed', '10288299', 'Hostel', '10288299', 'pending', 'ray cudjoe', '2022-02-09 08:45:16'),
-(123506, 'The project deadline is 28 april please extends the date...', '10288289', 'Other', '10288289@upsamail.edu.gh', 'approved', 'kelvin moah', '2022-03-09 17:20:29');
+(123506, 'The project deadline is 28 april please extends the date...', '10288289', 'Other', '10288289@upsamail.edu.gh', 'approved', 'kelvin moah', '2022-03-09 17:20:29'),
+(123502, 'Testing the system...', '10278288', 'Other', '10278288@upsamail.edu.gh', 'approved', 'nakam', '2022-04-04 19:20:29');
 
 -- --------------------------------------------------------
 
