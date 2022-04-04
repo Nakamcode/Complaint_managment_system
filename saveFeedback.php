@@ -45,7 +45,7 @@ if(isset($_POST['Savefeedback']))
 		}*/
 	}else{
 
-		echo "Your Roll Number is not registered Please contact to Admin";
+		echo "Your Index Number is not registered Please contact to Admin";
 							
 	}	
 }
