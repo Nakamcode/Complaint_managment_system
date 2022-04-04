@@ -110,7 +110,7 @@ function show_forward_form(){
                     
                     <li>
                         
-                        <a id="careAll" data-toggle="modal" data-target="#myModala"><i class="fa fa-desktop fa-2x"></i>change password</a>
+                        <a id="careAll" data-toggle="modal" data-target="#myModala"><i class="fa fa-desktop fa-2x"></i>Change Password</a>
                     </li>
 
 
