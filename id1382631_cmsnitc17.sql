@@ -63,8 +63,8 @@ CREATE TABLE `caretaker` (
 INSERT INTO `caretaker` (`tid`, `name`, `ctype`, `contact`, `address`, `email`, `password`) VALUES
 (5, '', 'HOSTEL', '', '', '', ''),
 (1, 'caretaker1', 'hostel', '9567760258', 'nitc', 'ajay11.933@rediffmail.com', '123456789'),
-(2, 'caretaker2', 'acedemics', '9567760258', 'nitc', 'caretaker2@nitc.ac.in', '23456789'),
-(3, 'caretaker3', 'mess', '9874563214', 'nitc', 'caretaker3@nitc.ac.in', '3456789'),
+(2, 'caretaker2', 'academics', '9567760258', 'nitc', 'caretaker2@nitc.ac.in', '23456789'),
+(3, 'caretaker3', 'bullying and Harrassment', '9874563214', 'nitc', 'caretaker3@nitc.ac.in', '3456789'),
 (4, 'caretaker4', 'other', '9567752525', 'nitc', 'caretaker4@nitc.ac.in', '456789');
 
 -- --------------------------------------------------------
@@ -111,7 +111,7 @@ CREATE TABLE `feedback` (
 --
 
 INSERT INTO `feedback` (`fid`, `sid`, `name`, `email`, `description`) VALUES
-(5093, 'M140361CA', 'ajay', 'ajay_m140361ca@nitc.ac.in', 'system working propery');
+(5093, '10107998', 'Gilbert', '10107998@upsamail.edu.gh', 'system working properly');
 
 -- --------------------------------------------------------
 
@@ -135,10 +135,11 @@ CREATE TABLE `student` (
 --
 
 INSERT INTO `student` (`rollno`, `name`, `contact`, `email`, `hostel`, `course`, `password`, `active`) VALUES
-('M140361CA', 'AJAY RAM', '9567760230', 'ajay_m140361ca@nitc.ac.in', 'mba block', 'master of computer appliction', '123456789', 'y'),
-('M140429CA', 'SAKSHI ROHILLA', '8136902522', 'sakshi_m140429ca@nitc.ac.in', 'MHL', 'MCA', 'jollykokcha', 'y'),
-('m140574CA', 'ASHOK KUMAR SHARMA', '4988959587', 'ashok_m140574ca@nitc.ac.in', 'mba', 'mca', 'ashok22', 'y'),
-('m150050ca', 'rahul raj', '9061543942', 'rahul_m150050ca@nitc.ac.in', 'fb-4', 'mca', 'rahul', 'y');
+('10278218', 'User One', '0556516391', '10278218@upsamail.edu.gh', 'private hostel', 'diploma in IT', 'password', 'y'),
+('10278228', 'User two', '0556516391', '10278228@upsamail.edu.gh', 'private hostel', 'diploma in IT', 'password', 'y'),
+('10278238', 'User three', '0556516391', '10278238@upsamail.edu.gh', 'private hostel', 'diploma in IT', 'password', 'y'),
+('10278288', 'Nana Asamoah Kwaw', '0556516391', '10278288@upsamail.edu.gh', 'private hostel', 'diploma in IT', 'password', 'y'),
+('10107998', 'Gilbert Afranie', '0551838624', '10107998@upsamail.edu.gh', 'mba', 'mca', 'password', 'y');
 
 --
 -- Indexes for dumped tables
