@@ -61,7 +61,7 @@ CREATE TABLE `caretaker` (
 --
 
 INSERT INTO `caretaker` (`tid`, `name`, `ctype`, `contact`, `address`, `email`, `password`) VALUES
-(5, '', 'HOSTEL', '', '', '', ''),
+(5, '', 'type', '', '', '', ''),
 (1, 'caretaker1', 'hostel', '9567760258', 'upsa', 'caretaker1@upsamail.edu.gh', 'caretaker'),
 (2, 'caretaker2', 'academics', '9567760258', 'upsa', 'caretaker2@upsamail.edu.gh', 'caretaker'),
 (3, 'caretaker3', 'bullying and Harrassment', '9874563214', 'upsa', 'caretaker3@upsamail.edu.gh', 'caretaker'),
