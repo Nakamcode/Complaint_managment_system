@@ -35,13 +35,13 @@ else {
 	
 	<tr>
           <td>Email</td>   
-          <td><input type="text" class="form-control" value='<?php echo $mail ?>' readonly />
+          <td><input type="text" class="form-control" value='<?php echo $mail ?>' />
           </td>
         </tr>
         
 	<tr>
           <td>To:</td>   
-          <td><input type="email" class="form-control" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+          <td><input type="email" class="form-control" name="email" required pattern="\S+@upsamail.edu.gh">
           </td>
         </tr> 
 	<tr>
