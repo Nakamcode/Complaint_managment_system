@@ -11,7 +11,7 @@
 		//echo $un."mayank";
 		if(mysqli_num_rows($r)>0)
 		{
-			$header = "From: <CMSNITC17@gmail.com>";
+			$header = "From: <UPSAKonnect@upsamail.edu.gh>";
 			$pass=$result['password'];
 			if(mail($em,$header,"Your Login password: ".$pass))
 			{

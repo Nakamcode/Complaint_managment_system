@@ -2,7 +2,7 @@
   $mail = @$_GET['mail'];
 if(isset($_POST['send']))
 {
-  $header ="From : CMSNITC17<cmsnitc17@gmail.com>";
+  $header ="From : UPSAKonnect2022<UPSAKonnect@upsamail.edu.gh>";
   $email=$_POST['email'];
   $msg = $_POST['msg'];
   if(mail($email,$header,$msg))

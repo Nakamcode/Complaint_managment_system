@@ -32,7 +32,7 @@ if($password==$cpassword)
 			if (mysqli_query($conn,$sql1)) 
 			{
 				echo '<script type=text/javascript> alert("Registered successfully!!!!!......login Now.")</script>';
-				$header ="From : CMSNITC17<cmsnitc17@gmail.com>";
+				$header ="From : UPSAKonnect2022<UPSAKonnect@upsamail.edu.gh>";
 				$email=$_POST['email'];
 				$msg = "<a href=\"https://ajayram017.000webhostapp.com/active.php?usercode=".$_POST['email']."\">Activate Now</a>";
 				mail($email,$header,$msg);            

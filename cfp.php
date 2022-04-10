@@ -12,7 +12,7 @@
 
 		{
 $pass=$result['password'];
-			$header = "From: <CMSNITC17@gmail.com>";
+			$header = "From: <UPSAKonnect@upsamail.edu.gh>";
 			$pass=$result['password'];
 			if(mail($em,$header,"Your Login password: ".$pass))
 			{
