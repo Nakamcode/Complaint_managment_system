@@ -88,9 +88,9 @@ function show_forward_form(){
                     <li>
                          <a  href="index.php?approvedall" id="approvedAll"><i class="fa fa-desktop fa-2x"></i>Approved Complaints</a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a  href="index.php?discardall" id="discardAll"><i class="fa fa-desktop fa-2x"></i>Discarded Complaints</a>
-                    </li>
+                    </li> -->
                      <li>
                         <a  href="index.php?pendingall" id="pendingAll"><i class="fa fa-desktop fa-2x"></i>Pending Complaints</a>
                     </li>
