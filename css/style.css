@@ -431,11 +431,15 @@ p.lead
 .main-heading-title {
 	font-weight: 900;
 	color: #ffffff;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	font-size:3.5em;
 	text-shadow: rgba(0,0,0,0.498039) 2px 2px 2px;
 	letter-spacing: 0.02em;
-	
+	margin-bottom: 1em;
+}
+.main-heading-title p{
+    color:#fff;
+    font-weight: 900;
 }
 .main-heading-title span {
 	margin-left: 6px;
@@ -634,14 +638,16 @@ p.lead
 ------------------------------*/
 .client-testimonial
 {
- background:url("../images/img-2.jpg");
+ /* background:url("../images/img-2.jpg");
  background-position: center center;
  background-attachment: fixed;
- background-size:cover;
+ background-size:cover; */
+ background-color: #fff;
 }
 
 .client-testimonial .container
 {
+background-color: white;
  padding:70px 0px;
 }
 

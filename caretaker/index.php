@@ -173,8 +173,8 @@ function show_forward_form(){
                                                         		<td><select name="select_status">
                                                         			<option value="'.$temp['status'].'" selected/>'.$temp['status'].'</option>
                                                         			<option value="approved">approved</option>
-  																	<option value="pending">Pending</option>
-  																	<option value="discarded">discarded</option> 
+  																	
+  																
   																	</td>';
 
                                                         //echo  '<td>'.$temp['Cby'].'</td>'; 

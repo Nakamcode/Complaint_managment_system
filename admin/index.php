@@ -760,15 +760,14 @@ function show_forward_form(){
           <input type="text" id="tid" name="tid" class="form-control" required>
             <label for="rollno">Name:</label>
           <input type="text" id="name" name="name" class="form-control" required>
-          <!--<label for="rollno">type:</label>
-          <input type="text" id="ctype" name="ctype" required>-->
+        
           <label for="ctype">Type:</label>
         <select id="ctype" name="ctype" class="form-control" required> 
           <optgroup label="type">
-          <option value="HOSTEL">Hostel</option >
-            <option value="ACEDEMICS">Acedemics</option>
-            <option value="MESS">Mess</option>
-            <option value="OTHERS">Others</option></optgroup></select>
+          <option value="Hostel">Hostel</option >
+            <option value="Academics">Academics</option>
+            <option value="Harrassment">Harrassment</option>
+            <option value="Other">Others</option></optgroup></select>
            <label for="contact">Contact:</label>
           <input type="text" id="contact" name="contact" class="form-control" required>
           <label for="address">Address:</label>
