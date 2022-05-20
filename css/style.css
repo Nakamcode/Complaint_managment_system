@@ -643,22 +643,26 @@ p.lead
  background-attachment: fixed;
  background-size:cover; */
  background-color: #fff;
+ color:#000;
 }
 
 .client-testimonial .container
 {
-background-color: white;
+background-color: #fff;
+color:#000;
  padding:70px 0px;
 }
 
 
 #testimonial {
 	padding: 30px 0;
+    background-color: #fff;
 }
 #testimonial .item{
     display: block;
     width: 100%;
     height: auto;
+    background-color: #fff;
 }
 
 #testimonial .item p {
