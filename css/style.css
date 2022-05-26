@@ -657,18 +657,20 @@ color:#000;
 #testimonial {
 	padding: 30px 0;
     background-color: #fff;
+    color:#000;
 }
 #testimonial .item{
     display: block;
     width: 100%;
     height: auto;
     background-color: #fff;
+    color: #000;
 }
 
 #testimonial .item p {
 	font-weight: 400;
 	margin: 30px 0;
-	color: #d1d1d1;
+	color: #493838;
 }
 
 /*	STATS
